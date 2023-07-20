@@ -1,0 +1,21 @@
+/* *代表的是:匹配页面中所有的元素
+			通配符选择器*/
+*{
+	/* 外边距 */
+	margin:0;
+	/* 内边距 */
+	padding:0
+}
+div{
+	/* 宽度 */
+	width:200px;
+	/* 高度 */
+	height:200px;
+	/* 背景颜色 */
+	background-color: aqua;
+}
+p{
+	width:100px;
+	height:100px;
+	background-color: yellowgreen;
+}

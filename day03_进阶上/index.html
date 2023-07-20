@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<!-- 
+		1.复习昨天讲解的内容
+			列表 
+				1.有序和无序
+					<ol><li>文本</li>/ol>
+					<ul><li>文本</li></ul>
+				2.段落
+					<p></p>
+				3.输入框和密码框
+					<input type="text">
+					<input type="password">
+				4.区块划分
+					<div></div>
+				5.独立文本修饰
+					<span></span>
+				6.图片
+					<img src="路径">
+				7.水平线
+					<hr>
+				8.换行
+					<br>
+			学习的是CSS
+				作用:对页面结构的修饰
+				基本语法:
+					选择器{
+						属性:属性值;
+						属性:属性值;
+					}
+				应用:
+				放在一个以.css为后缀的文件夹中
+				<link rel="stylesheet" href="css文件的地址">
+		2.今天的课程内容
+			1.css的应用
+			2.选择器的学习
+				选择器:查找页面元素的一种方式方法,
+				通过什么样的方式找到元素
+				a:标签选择器
+					标签名字就是选择器,只要叫标签名字就找到他
+					语法:div{} p{}
+					弊端:匹配范围太大,太多
+					精确度
+				b:给相同的元素起一个外号(类名)
+					<div class="额狗子"></div>
+					<div class="狗剩"></div>
+					找第一个div
+					.额狗子{}
+				c:第三种选择器
+					子代选择器:通过父子关系曲查找页面元素
+					<div>
+						<p class="额狗子"></p>
+					</div>
+					
+					p{}
+					.额狗子{}
+					div>p{}
+					div.额狗子{}
+					
+					赵建华
+						赵美
+					赵建华(赵梅)
+						赵美(狗子)
+					<!-- 还是想要找到div里面的p
+						.p1{}
+						div>p{}
+						div>.p1{}
+						.box>p{}
+						.box>.p1{}
+					-->
+					<!-- 回忆一下: 
+						CSS基本语法
+							选择器{
+								属性:属性值;
+								属性:属性值;
+							}
+							选择器:查找页面元素的方法方式
+							{}:样式规则:规定选择器查找到的元素的何种样式
+					学习样式规则:花括号里面的内容
+					学习其他的属性
+						1.color:red;
+							文本的颜色
+						2.background-color:red;
+							背景颜色
+						3.字体修饰的属性
+							大小,加粗,倾斜,修饰线;
+							大小:font-size
+							加粗:font-weight:bold
+							倾斜:font-style:italic 
+							修饰性属性:text-decoration
+							    underline:下划线
+								line-through;中划线
+								overline:上划线
+								如果想要出现多个线条的话,一个属性后跟多个值
+								多个取值用空格隔开
+							首行缩进:text-indent
+								2em;代表两个汉字的大小
+							文本的对齐方式:text-align;
+								left;左,
+								right;右
+								center:居中
+								justify:两端对齐
+							行间距:line-height
+								数值+px
+								测量的时候需要从第一行文本的
+								上面测量到第二行文本的上面
+								
+					能设置宽度高度的元素右哪些?
+					1.div,p,ul,li,img,input
+					不能设置宽度和高度的元素有
+					b,i,s,u,a,span,br
+					
+					
+					使用元素设置宽度高度之后,会有缝隙,产生
+					缝隙的原因是因为每一个元素都自带了内边距和外边距
+					*{
+						/* 外边距 */
+						margin:0;
+						/* 内边距 */
+						padding:0
+					}
+							 
+							 
+							 -->
+		
+	</body>
+</html>

@@ -1,0 +1,19 @@
+p{
+	color:red;
+	/* 加粗 */
+	font-weight: bold;
+	/* 倾斜 */
+	font-style: italic;
+	/* 大小 ,取值数值+px */
+	font-size: 100px;
+	/* 修饰线属性
+		取值:
+			下划线:underline u标签
+			中划线:line-through s标签
+			上划线:overline
+		注意事项:
+			如果实现多个线条修饰,一个属性后面跟多
+			个取值,多个取值使用空格隔开
+			*/
+	text-decoration:overline;
+}

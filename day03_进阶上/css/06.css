@@ -1,0 +1,8 @@
+p{
+	/* 首行缩进 */
+	text-indent: 2em;
+	/* 对齐方式 */
+	text-align: justify;
+	/* 行间距调整 */
+	line-height: 50px;
+}

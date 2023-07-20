@@ -1,0 +1,20 @@
+div{
+	color:red;
+	background-color: royalblue;
+	width:300px;
+	height:93px;
+	font-size: 50px;
+	font-weight: bold;
+}
+.sp1{
+	font-size: 20px;
+	background-color: darkorange;
+	width:500px;
+	height:50px;
+}
+p{
+	font-size: 20px;
+	background-color: pink;
+	width:800px;
+	height:80px;
+}

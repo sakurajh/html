@@ -1,0 +1,15 @@
+/* div>p{
+	color:red;
+} */
+/* div{
+	background-color: aqua;
+} */
+/* .p1{
+	color:red;
+} */
+div>p{
+	background-color: aquamarine;
+}
+div>.p1{
+	background-color:indianred;	
+}

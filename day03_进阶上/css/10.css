@@ -1,0 +1,32 @@
+.sp1{
+	color:red;
+	width:560px;
+	height:75px;
+	background-color: aqua;
+	font-size: 50px;
+	font-weight: bold;
+}
+.sp2{
+	background-color: yellow;
+	width:564px;
+	height:68px;
+	font-size: 25px;
+}
+.sp3{
+	background-color: aqua;
+}
+p{
+	background-color: yellow;
+	font-size: 25px;
+	width:564px;
+	height:40px;
+}
+.sp5{
+	background-color: purple;
+}
+.sp6{
+	background-color:aqua;
+}
+.sp7{
+	color:blue;
+}

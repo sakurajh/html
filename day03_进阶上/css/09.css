@@ -1,0 +1,23 @@
+div{
+	text-indent: 1em;
+	width:750px;
+	height:300px;
+	background-color: gold;
+	font-size: 24px;
+}
+.sp1{
+	font-weight:bold;
+	color:orange;
+}
+.sp2{
+	color:green;
+}
+.sp3{
+	background-color: mistyrose;
+	color:purplr;
+	font-style: italic;
+}
+.sp4{
+	font-weight: bold;
+	color:purple;
+}

@@ -1,0 +1,28 @@
+.pTit{
+	font-size: 34px;
+	font-weight: bold;
+}
+	
+.pName{
+	width:120px;
+	height:40px;
+	background-color: deeppink;
+	font-weight: bold;
+	color:orange;
+	font-size: 20px;
+}
+ul>li{
+	background-color: green;
+}
+.list{
+	background-color: yellowgreen;
+}
+b{
+	color:skyblue;
+}
+i{
+	color:red;
+}
+u{
+	color:orange;
+}
