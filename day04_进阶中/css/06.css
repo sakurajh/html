@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.title{
+	width:744px;
+	height:64px;
+	/* background-color: red; */
+	/* 小的图片以背景出现 */
+	background-image: url(../img/pic3.png);
+	background-repeat: no-repeat;
+	/* 调整背景图片的位置 
+		background-position:x y;
+	
+	*/
+	background-position: left center;
+}
+.title>.sp1{
+	font-size: 18px;
+	line-height:64px;
+	margin:32px;
+	
+}
+.title>.sp2{
+	/* 右侧显示 */
+	float:right; 
+	/* line-height:64px; */
+	margin-top:30px;
+}
+.main{
+	width:744px;
+	height:128px;
+	background-color: white;
+	background-image: url(../img/pic5.png);
+	background-repeat: no-repeat;
+	background-position:right top ;
+	margin-bottom: 20px;
+}
+.info{
+	width:470px;
+	height:128px;
+	float :left;
+	/* background-color: yellow; */
+}
+/* 浮动,让原来纵向排列变成横向 
+float :left/right*/
+.main>img{
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right:20px;
+}
+.info>.p1{
+	margin-top: 20px;
+	font-weight: bold;
+}
+.info>.p2{
+	font-size: 12px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.info>.p3{
+	font-size:14px;
+}
+body{
+	background-color: gray;
+}

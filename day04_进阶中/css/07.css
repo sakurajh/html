@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+}
+.title{
+	background-color: green;
+	width:500px;
+	height:50px;
+	font-size: 32px;
+	color:red;
+	font-weight: bold;
+	line-height: 50px;
+}
+.yellow{
+	width:500px;
+	background-color: yellow;
+	height:100px;
+	font-size: 24px;
+	color:red;
+}
+.red{
+	background-color: red;
+	width:500px;
+	text-indent: 2em;
+}
+.sp1{
+	background-color: orange;
+	font-weight: bold;
+}
+.sp2{
+	background-color: aqua;
+	color:purple;
+	font-weight:bold;
+	font-style: italic;
+}
+.sp3{
+	font-weight: bold;
+	color:gold;
+	background-color: aqua;
+}
+.sp4{
+	background-color: blue;
+}
+.sp5{
+	background-color: blue;
+	color:aqua;
+}
