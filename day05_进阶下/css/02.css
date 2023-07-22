@@ -1,0 +1,31 @@
+*{
+	margin:0;
+	padding:0;
+}
+.box{
+	width:500px;
+	height:500px;
+	border:10px solid gray;
+	display:flex;
+	/* 调整主轴方向 
+	row 横向
+	column 列
+	row-reverse 主轴在横向内容反方向显示
+	column-reverse 主轴在纵向内容反方向显示
+	*/
+	flex-direction: row;
+	/* 调整主轴上面的对齐方式 
+		flex-start,==主轴开始的位置,没有分开
+		flex-end,==主轴结束的位置,没有分开
+		center,==主轴中间的位置,没有分开
+		space-around;主轴间距环绕
+		space-between;主轴两端对齐
+		space-evenly; 主轴间距均分
+	*/
+	justify-content:space-evenly;
+}
+.box>p{
+	width:50px;
+	height:50px;
+	border: 2px dashed red;
+}
