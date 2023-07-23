@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* 窗口的自适应 */
+html,body{
+	height:100%;
+}
+/* 父元素body触发弹性盒子 */
+body{
+	display: flex;
+	/* 调整主轴方向 */
+	flex-direction: column;
+}
+.header{
+	height:0.9rem;
+	background-color: #0cc440;
+	font-size:0.34rem;
+	color:white;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.section{
+	flex:1;
+	/* background-color: yellow; */
+	padding-top:0.3rem;
+	padding-right:0.3rem;
+	padding-bottom:0.3rem;
+	padding-left:0.3rem;\
+	display:flex;
+	flex-direction: column;
+}
+.section>input{
+	width:100%;
+	height:0.7rem;
+	/* 取消所有边框 */
+	border:none;
+	/* 取消选中高亮的描边效果 */
+	outline: none;
+	margin-bottom: 0.4rem;
+	/* 只添加下边框 */
+	border-bottom:2px solid gray;
+	font-size: 30px;
+}
+.section>a{
+	width:100%;
+}
+.section>a>.btn{
+	background-color: #0cc440;
+	border: none;
+	font-size: 30px;
+	width:100%;
+	color:white;
+	height:0.9rem;
+	margin-top:0.4rem;
+}
