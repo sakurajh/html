@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body{
+	height:100%;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	height:0.9rem;
+	background-color: #00b38b;
+	font-size: 0.4rem;
+	color:white;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.sp1{
+	display: flex;
+	border: 1px solid gray;
+	color:#535353;
+	height:0.9rem;
+	/* background-color: green; */
+	font-size: 0.35rem;
+	padding-left: 0.3rem;
+	line-height: 0.88rem;
+	padding-right: 0.3rem;
+	justify-content: space-between;
+}
+
+.sp3{
+	color: #00b38b;
+	font-size: 0.35rem;
+	width:1.7rem;
+	height:0.6rem;
+	margin-top: 0.14rem;
+	background-color: #fceff6;
+	line-height: 0.6rem;
+	text-align: center;
+	/* 变成圆角 */
+	border-radius: 0.6rem;
+	border: none;
+}
+
+.section{
+	flex:1;
+	/* background-color: yellow; */
+	
+}
+
+.sp4{
+	height:1.84rem;
+	background-image: url(../img/cihh.png);
+	background-size: 15%;
+	background-repeat: no-repeat;
+	background-color: #f6f6f6;
+}
+
+.footer{
+	height:0.9rem;
+	background-color: #f6f6f6;
+	border: 1px  solid gary;
+}
+.box{
+	weight:0.6rem;
+	height:0.6rem;
+}
+.sp5{
+	font-size: 0.37rem;
+	font-weight: bold;
+	padding-left:1.3rem ;
+}
+.sp6{
+	font-size: 0.25rem;
+	padding-left:1.3rem ;
+}
+.sp7{
+	font-size:0.25rem ;
+	padding-left:1.3rem ;
+	color: gray;
+	padding-bottom: 0.1rem;
+}
+.sp8{
+	padding-right: 0.26rem;
+	color:#00b38b;
+	font-size: 0.31rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.btn{
+}
