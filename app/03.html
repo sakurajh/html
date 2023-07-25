@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* 设置全局样式 */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      background: #f2f2f2;
+    }
+    
+    /* 设置页面头部 */
+    header {
+      background: orangered;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    
+    /* 设置搜索栏 */
+    .search-bar {
+      background: #FF5400;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      margin: 60px 10px 10px;
+      border-radius: 5px;
+    }
+    
+    .search-bar input[type="text"] {
+      width: 80%;
+      padding: 5px;
+      border: none;
+    }
+    
+    .search-bar button {
+      background: #FF6600;
+      color: #fff;
+      padding: 5px 10px;
+      border: none;
+      margin-left: 10px;
+    }
+    
+    /* 设置商品列表 */
+    .product-list {
+      padding: 10px;
+      margin-top: 90px;
+    }
+    
+    .product {
+      background: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+    
+    .product img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    
+    .product h2 {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+    
+    .product p {
+      margin-bottom: 5px;
+    }
+    
+    .product button {
+      background: #FF5400;
+      color: #fff;
+      padding: 5px 10px;
+      border: none;
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+	.section{
+		background-color:#f5f5f5;
+		flex:1;
+		display: flex;
+		/* 折行 */
+		flex-wrap: wrap;
+		/* 两端对齐 */
+		justify-content: space-between;
+		/* 滚动 */
+		overflow: auto;
+	}
+	.main>.p1{
+		margin-left: 0.2rem;
+		margin-right: 0.2rem;
+		margin-top: 0.14rem;
+		font-size: 0.25rem;
+	}
+	.main>.p1>span{
+		background-color: orangered;
+		color: white;
+		padding-top: 0.04rem;
+		padding-bottom: 0.04rem;
+		padding-left :0.08rem;
+		padding-right: 0.08rem;
+		font-size: 0.2rem;
+		border-radius: 0.6rem;
+		/* 下外边距 */
+		margin-bottom: 0.16rem;
+	}
+	.main>.p2{
+		color:gray;
+		margin-left: 0.2rem;
+		margin-right: 0.2rem;
+		display: flex;
+		justify-content: space-between;
+	}
+	.main>.p3{
+		color:red;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 0.18rem;
+		margin-top: 0.2rem;
+		align-items: center;
+		
+		margin-left: 0.2rem;
+		margin-right: 0.2rem;
+	}
+	.main>.p3>.box{
+		height:0.44rem;
+		font-size: 0.24rem;
+		background-color: #ff6935;
+		color: white;
+		padding-top: 0.04rem;
+		padding-bottom: 0.04rem;
+		padding-left :0.04rem;
+		padding-right: 0.04rem;
+		margin-bottom: 0.22rem;
+		margin-right: 0.05rem;
+		
+		/* border-radius: 0.6rem; */
+	}
+	.main>.p3>.box1{
+		font-size: 0.34rem;
+		align-items: center;
+		font-weight: bold;
+		margin-bottom: 0.2rem;
+	}
+	.img{
+		
+	}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>奥利给给</h1>
+  </header>
+
+  <div class="search-bar">
+    <input type="text" placeholder="搜索商品">
+    <a href="https://www.taobao.com/"><button type="submit">搜索</button></a>
+  </div>
+  <div class="img">
+	  <img src="img/jkkk.png">
+	  <img src="alo.png">
+	  <img src="img/sanskna.png">
+	  <img src="img/xcxz.png">
+	  <a href="04.html">
+		  <img src="img/asda.png">
+	  </a>
+	  <a href="05.html">
+		  <img src="img/akalx.png">
+	  </a>
+	  <a href="07.html">
+		  <img src="img/sajk.png">
+	  </a>
+	  <a href="06.html">
+		  <img src="img/sadsad.png">
+	  </a>
+  </div>
+  <div class="product-list">
+    <div class="product">
+      <img src="img/jhh.png" alt="商品1">
+      <h2>大学生jk裙</h2>
+      <p>男生女生都爱穿的jk裙</p>
+      <p>价格：￥68.88</p>
+      <a href="https://item.taobao.com/item.htm?id=664870405412&ali_refid=a3_430582_1006:1310690111:N:Zdw3Zvgh027uErwUHLwlfA%3D%3D:c76c013bd9f02bdd9231250afddd43f0&ali_trackid=162_c76c013bd9f02bdd9231250afddd43f0&spm=a21n57.1.0.0#detail"><button>购买</button></a>
+    </div>
+    <div class="product">
+      <img src="img/yna.png" alt="商品2">
+      <h2高质量眼镜</h2>
+      <p>人类高质量女性所带的眼镜</p>
+      <p>价格：￥199.99</p>
+      <a href="https://detail.tmall.com/item.htm?id=634309476929&ali_refid=a3_430582_1006:1271410197:N:jTYH9d%2F%2BizP5vsRoYzY5rw%3D%3D:8e3cd6915a760d6ba6137c0ca1db681d&ali_trackid=162_8e3cd6915a760d6ba6137c0ca1db681d&spm=a21n57.1.0.0"><button>购买</button></a>
+    </div>
+    <div class="section">
+    	<div class="main">
+    		<a href="https://detail.tmall.com/item.htm?abbucket=0&id=662015583830&ns=1&spm=a21n57.1.0.0.2c6a523cm4W5oK"><img src="img/xie.png"></a>
+    		<p class="p1">
+    			<span>包邮</span>
+    			抖音热款小白系男女均可穿
+    		</p>
+    		<p class="p2">
+    			<span>
+    				淘宝价 ¥ 169
+    			</span>
+    			<span>
+    				月销888
+    			</span>
+    		</p>
+    		<p class="p3">
+    			<span class="box1">
+    				券后¥69
+    			</span>
+    			<span class="box">
+    				100元券
+    			</span>
+    		</p>
+    	</div>
+  </div>
+
+</body>
+</html>
